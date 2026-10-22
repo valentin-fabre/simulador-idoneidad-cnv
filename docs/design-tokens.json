@@ -1,0 +1,67 @@
+{
+  "name": "terminal",
+  "palette": {
+    "bg": "#000000",
+    "bg_panel": "#000000",
+    "bg_raised": "#0d0d0d",
+    "bg_strip": "#2b3a55",
+    "border": "#3a3a3a",
+    "border_strong": "#5a5a5a",
+    "text": "#ffffff",
+    "text_muted": "#b5b5b5",
+    "text_dim": "#7a7a7a",
+    "accent": "#ff9f1c",
+    "accent_strong": "#ffb547",
+    "accent_dim": "rgba(255,159,28,.12)",
+    "selection_bg": "#1f3f8f",
+    "selection_text": "#ffffff",
+    "positive": "#19d26b",
+    "negative": "#ff3b3b",
+    "positive_bg": "#062b17",
+    "negative_bg": "#2e0a0a",
+    "topbar": "#0b1f5c"
+  },
+  "typography": {
+    "family": "'IBM Plex Mono', 'Lucida Console', Consolas, monospace",
+    "base_px": 13,
+    "line_height": 1.45,
+    "scale": {
+      "xs": 11,
+      "sm": 12,
+      "md": 13,
+      "lg": 15,
+      "xl": 18,
+      "xxl": 26
+    },
+    "labels": "MAYÚSCULAS, sin letter-spacing extra",
+    "numbers": "tabulares"
+  },
+  "geometry": {
+    "radius": 0,
+    "border_width": 1,
+    "shadow": "none",
+    "spacing_base_px": 8,
+    "transitions_ms": 0
+  },
+  "components": {
+    "panel": "borde 1px border; cabecera con fondo bg_strip y texto blanco en mayúsculas; cuerpo sobre bg_panel",
+    "primary_button": "fondo accent, texto negro, mayúsculas, sin radio; hover accent_strong",
+    "secondary_button": "transparente, borde border, texto text_muted; hover borde accent y texto accent",
+    "option_row": "fila con índice en accent (A) B) C) D)), borde inferior border; hover fondo selection_bg; seleccionada borde izquierdo accent",
+    "correct": "texto positive, fondo positive_bg, borde izquierdo positive",
+    "wrong": "texto negative, fondo negative_bg, borde izquierdo negative",
+    "progress": "línea de 2px, relleno accent",
+    "table_row": "filas separadas por líneas, valores numéricos a la derecha",
+    "input": "fondo bg_raised, borde border, foco borde accent"
+  },
+  "light_variant": {
+    "bg": "#f4f4f4",
+    "bg_panel": "#ffffff",
+    "bg_strip": "#dfe4ee",
+    "border": "#c8c8c8",
+    "text": "#111111",
+    "text_muted": "#4a4a4a",
+    "accent": "#c66a00",
+    "selection_bg": "#dce6ff"
+  }
+}
